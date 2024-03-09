@@ -19,7 +19,7 @@ ENTRYPOINT ["/root/entry.sh"]
 
 # ----- Git Cloner ----- #
 FROM ssh AS cloner
-
+ 
 # Docker
 RUN apk add --update docker openrc
 RUN rc-update add docker boot
